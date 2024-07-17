@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skincare for Women Over 30</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+	<style>
+	body {
+    font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif'
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #c90051;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+header .logo {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    height: 60px;
+}
+
+nav {
+    background-color: #b5b50a;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #054115;
+    padding: 15px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #fee558;
+}
+
+.hero {
+    background-image: url('placeholder-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    text-align: center;
+    color: white;
+}
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 20px;
+}
+
+.box, .vertical-box, .horizontal-box {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+.box img, .vertical-box img, .horizontal-box img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.vertical-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.horizontal-container {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.contact-form {
+    width: 80%;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    text-align: center;
+    color: lime;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form label {
+    margin-top: 10px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: lime;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: darkgreen;
+}
+
+footer {
+    background-color: lime;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+</style>
+<body>
+    <header>
+        <img src="logo.png" alt="Skincare Logo" class="logo">
+        <h1>Skincare for Women Over 30</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#skin-issues">SKIN ISSUES</a></li>
+            <li><a href="#schedule">SCHEDULE</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </nav>
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h2>Brighter Future Skincare</h2>
+            <p>Luxury Skincare for women over 30</p>
+      </div>
+    </section>
+    <main>
+	
+		<section id="middle" class="vertical-container">
+            <div class="vertical-box" style="background-color: lightblue;">
+                <img src="placeholder.jpg" alt="Middle Section">
+                <h2>Middle Section</h2>
+                <p>Description for the middle section.</p>
+            </div>
+        </section>
+        <section id="about" class="container">
+            <div class="box" style="background-color: lime;">
+                <img src="placeholder.jpg" alt="Hydration">
+                <h2>Hydration</h2>
+                <p>Keep your skin hydrated with the best moisturizers.</p>
+            </div>
+            <div class="box" style="background-color: magenta;">
+                <img src="placeholder.jpg" alt="Anti-Aging">
+                <h2>Anti-Aging</h2>
+                <p>Explore our range of anti-aging products to keep your skin youthful.</p>
+            </div>
+            <div class="box" style="background-color: orange;">
+                <img src="placeholder.jpg" alt="Sun Protection">
+                <h2>Sun Protection</h2>
+                <p>Protect your skin from harmful UV rays with our sunscreens.</p>
+            </div>
+        </section>
+        
+        <section id="middle" class="vertical-container">
+            <div class="vertical-box" style="background-color: lightblue;">
+                <img src="placeholder.jpg" alt="Middle Section">
+                <h2>Middle Section</h2>
+                <p>Description for the middle section.</p>
+            </div>
+        </section>
+        <section id="about" class="container">
+            <div class="box" style="background-color: lime;">
+                <img src="placeholder.jpg" alt="Hydration">
+                <h2>Hydration</h2>
+                <p>Keep your skin hydrated with the best moisturizers.</p>
+            </div>
+            <div class="box" style="background-color: magenta;">
+                <img src="placeholder.jpg" alt="Anti-Aging">
+                <h2>Anti-Aging</h2>
+                <p>Explore our range of anti-aging products to keep your skin youthful.</p>
+            </div>
+            <div class="box" style="background-color: orange;">
+                <img src="placeholder.jpg" alt="Sun Protection">
+                <h2>Sun Protection</h2>
+                <p>Protect your skin from harmful UV rays with our sunscreens.</p>
+            </div>
+        </section>
+        <section id="horizontal-container" class="horizontal-container">
+            <div class="horizontal-box" style="background-color: lightcoral;">
+                <img src="placeholder.jpg" alt="Horizontal Section">
+                <h2>Horizontal Section</h2>
+                <p>Description for the horizontal section.</p>
+            </div>
+        </section>
+
+        <section id="additional" class="container">
+            <div class="box" style="background-color: lightgreen;">
+                <img src="placeholder.jpg" alt="Additional 1">
+                <h2>Additional Section 1</h2>
+                <p>Description for the additional section 1.</p>
+            </div>
+            <div class="box" style="background-color: lightpink;">
+                <img src="placeholder.jpg" alt="Additional 2">
+                <h2>Additional Section 2</h2>
+                <p>Description for the additional section 2.</p>
+            </div>
+            <div class="box" style="background-color: lightyellow;">
+                <img src="placeholder.jpg" alt="Additional 3">
+                <h2>Additional Section 3</h2>
+                <p>Description for the additional section 3.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-form">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Skincare for Women Over 30</p>
+    </footer>
+</body>
+</html>
