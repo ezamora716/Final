@@ -8,10 +8,10 @@
 </head>
 	<style>
 	body {
-    font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif'
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: lightcoral;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -94,12 +94,12 @@ main {
     margin: 10px;
     padding: 20px;
     border-radius: 10px;
-    color: #054115;
+    color: white;
     text-align: center;
 }
 
 .box img, .vertical-box img, .horizontal-box img {
-    max-width: 100%;
+    max-width: 80%;
     border-radius: 10px;
     margin-bottom: 15px;
 }
@@ -116,20 +116,20 @@ main {
     display: flex;
     justify-content: center;
     margin: 20px;
-}
-
+		}
+		
 .contact-form {
     width: 80%;
     margin: 20px;
     padding: 20px;
-    background-color: white;
+    background-color: lightpink;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .contact-form h2 {
     text-align: center;
-    color: lime;
+    color: #c90051;
 }
 
 .contact-form form {
@@ -164,6 +164,7 @@ main {
     background-color: darkgreen;
 }
 
+		
 footer {
     background-color: lime;
     padding: 10px;
@@ -174,6 +175,7 @@ footer {
 <body>
     <header>
         <img src="BFLogo.png" alt="Skincare Logo" class="logo">
+		
         <h1>Brighter Future Skincare</h1>
     </header>
     <nav>
@@ -190,84 +192,93 @@ footer {
             <p>Luxury Skincare for women over 30</p>
       </div>
     </section>
-    <main>
-	
-		<section id="middle" class="vertical-container">
-            <div class="vertical-box" style="background-color: #B5B50A;">
-                <img src="GIRLACNE.jpg" alt="Middle Section">
-                <h2>Acne at any age is the WORST, so treating it at the root is BEST!</h2>
-                <p>Description for the acne section.</p>
+		
+		<section id="acne" class="flex-box">
+            <div class="vertical-box" style="background-color: lightpink;">
+				               
+<h1 style="font-size:40px; color: #c90051;">Acne at any age is the WORST, so treating it at the root is BEST!</h1>
+				<h2 style="font-size:20px; color: #054115">Several factors can trigger acne breakouts in your thirties and beyond.</p>
+<p>Hormonal changes can increase oil production in your skin, which can clog your pores. You might be more likely to get adult acne if you have polycystic ovary syndrome (PCOS) or use hormonal birth control.</p>
+<p>Stress can also cause acne. High-stress levels increase cortisol in your body, leading to inflammation and breakouts.
+Mild acne breakouts usually resolve on their own. But if you are frustrated with significant acne or frequent breakouts in your 30s, it might be time to consider some other options.</p></h2>
+				<img src="acne.jpg" alt="Middle Section">
+              
+			
+				<div class="flex-box" style="background-color: magenta;">
+                <h1 style="font-size:40px; color:#c90051;">Hydrafacial</h1>
+                <h2 style="font-size:20px; color: #054115"><p>HydraFacial is effective due to its deep cleaning and exfoliation properties. The treatment helps clogged pores by removing dead skin cells, and extracting impurities therefore helping with existing acne while preventing future breakouts and can even lighten acne scars. Adding acne-fighting serums during and after the facial, such as salicylic acid, helps maintain a healthy balance in the skin and reduce inflammation.</p></h2>
+						 <img src="hydrafacial.jpg" alt="Hydrafacial machine">
+     
+				
+            <section>
+				<div class="flex-box" style="background-color: orange;">
+                  <h1 style="font-size:40px; color:#c90051;">Botox</h1>
+					<h2 style="font-size:20px; color: #054115">
+                <p>The main idea behind using Botox to treat acne is that it reduces the activity of the sebaceous glands, which are the glands responsible for producing sebum. Sebum is the natural oil produced by the skin and it can trap dirt and bacteria, which can lead to clogged pores and acne. By reducing the activity of the sebaceous glands, Botox can help reduce the production of sebum and therefore reduce the occurrence of acne.</p></h2>
+					<img src="botoxface.jpg" alt="Botox">
             </div>
         </section>
-        <section id="about" class="container">
-            <div class="box" style="background-color: lime;">
-                <img src="placeholder.jpg" alt="Clarity II machine">
-                <h2>Laser Treatments&nbsp;</h2>
-                <p>Laser treatments can kill bacteria under the skin, while encouraging new cell growth.</p>
-            </div>
-            <div class="box" style="background-color: magenta;">
-                <img src="placeholder.jpg" alt="Hydrafacial machine">
-                <h2>Hydrafacial</h2>
-                <p>Using a hydrafacial can .....</p>
-            </div>
-            <div class="box" style="background-color: orange;">
-                <img src="placeholder.jpg" alt="Botox">
-                <h2>Botox</h2>
-                <p>Decrease oil production with botox....</p>
-            </div>
-        </section>
-        
-        <section id="middle" class="vertical-container">
-            <div class="vertical-box" style="background-color: #B5B50A;">
-                <img src="womanwrinkles1.jpg" alt="Middle Section">
-                <h2>Melasma/Sun Spots Quote Here</h2>
-                <p>Description for sunspots here.</p>
-            </div>
-        </section>
-        <section id="about" class="container">
-            <div class="box" style="background-color: lime;">
-                <img src="placeholder.jpg" alt="Hydration">
-                <h2>Hydration</h2>
-                <p>Keep your skin hydrated with the best moisturizers.</p>
-            </div>
-            <div class="box" style="background-color: magenta;">
-                <img src="placeholder.jpg" alt="Anti-Aging">
-                <h2>Anti-Aging</h2>
-                <p>Explore our range of anti-aging products to keep your skin youthful.</p>
-            </div>
-            <div class="box" style="background-color: orange;">
-                <img src="placeholder.jpg" alt="Sun Protection">
-                <h2>Sun Protection</h2>
-                <p>Protect your skin from harmful UV rays with our sunscreens.</p>
-            </div>
-        </section>
-        <section id="horizontal-container" class="horizontal-container">
-            <div class="horizontal-box" style="background-color: #b5b50a;">
-                <img src="wrinkleswoman.jpg" alt="Horizontal Section">
-                <h2>Wrinkle Quote</h2>
-                <p>Description on what to do for wrinkles.</p>
-            </div>
-        </section>
+				</div>
+		
+			<div>	
+      <section id="melasma" class="flex-box">
+            <div class="vertical-box" style="background-color: #b5b50a;">
+                       <h1 style="font-size:40px; color:#c90051;">One spot, two spot...RED spot? NEW SPOT???</h1>
+                <h2 style="font-size:20px; color: #054115">
+				<p>Melasma is a common pigmentation disorder that causes darker patches on the skin, primarily on the face.</p>
+				<p>While melasma does not cause any other physical symptoms, some people may find the appearance of these patches bothersome. Potential triggers for melasma can include changes in hormones, sun exposure, certain skin care products, if they irritate a person’s skin, and some medications. 
+Melasma that is due to hormonal changes may fade over time, once hormone levels return to normal. Taking steps to limit sun exposure may help prevent melasma.
+					</p></h2>
+				<img src="womanspots.jpg" alt="woman spots">
+				
+            <div class="flex-box" style="background-color: magenta;">
+				 <h1 style="font-size:40px; color:#c90051;">LaseMD Ultra Treatment</h1>
+                <h2 style="font-size:20px; color: #054115"><p>Melasma and sun spots can be quite noticeable. Thankfully they
+aren't always forever. Laser skin resurfacing is a great way to
+target pigment in the skin and watch as it peels away!
+					</p></h2>
+           <img src="alpharet.jpg" alt="Anti-Aging">
+				
+				 <div class="child" style="background-color: orange;">
+				 <h1 style="font-size:40px; color:#c90051;">Melasma Fighting Skincare Products</h1>
+             <h2 style="font-size:20px; color: #054115"><p>Skincare products with hydroquinone and retinae are usually
+  recommended after treatment to improve results.
+				 </p></h2>
+           <img src="alpharet.jpg" alt="Anti-Aging">
+				</div>
+				</section>
+		  
+        <section id="wrinkled" class="flex-container">
+            <div class="horizontal-box" style="background-color: magenta;">
+               <h1 style="font-size:40px; color:#c90051;">Wrinkled was NOT what I wanted to be when I grew up!</h1>
+				<h2 style="font-size:20px; color: #054115"><p>We all get wrinkles as we get older. They're a normal part of aging.</p>
+				
+<p>Wrinkles fall into two categories: fine, surface lines and deeper furrows. If they bother you, or if you're looking to prevent them in the first place, there are things that can help.</p>
+				
+<p>With age, skin cells divide more slowly, and the skin's inner layer, called the dermis, begins to thin. That starts to undo skin's stretchiness and structure. Aging skin also starts to lose its ability to hold on to moisture. It makes less oil and is slower to heal. That all contributes to the wrinkling process. </p></h2>
+				<img src="wrnkl.jpg" alt="Horizontal Section">
+				 <div class="flex-container" style="background-color: #b5b50a; align-self: baseline">
+				 <h1 style="font-size:40px; color:#c90051;">Botox</h1>
+  <h2 style="font-size:20px; color: #054115"><p>Botox is one of the most popular and widely used treatments for facial wrinkles. </p>
+<p> Dynamic wrinkles are the facial wrinkles caused by muscle movements when you smile, laugh, concentrate, squint, etc. The most common dynamic wrinkles are crow’s feet around the eyes, forehead lines, and frown lines between the eyebrows.
+Botox is primarily used to treat these dynamic wrinkles. Botox is a neuromodulator made of botulinum toxin, a component that temporarily paralyzes muscle activity. It blocks your nerves from communicating with the targeted muscles, thus reducing the appearance of dynamic wrinkles. </p></h2>
 
-        <section id="additional" class="container">
-            <div class="box" style="background-color: lightgreen;">
-                <img src="placeholder.jpg" alt="Additional 1">
-                <h2>Additional Section 1</h2>
-                <p>Description for the additional section 1.</p>
-            </div>
-            <div class="box" style="background-color: lightpink;">
-                <img src="placeholder.jpg" alt="Additional 2">
-                <h2>Additional Section 2</h2>
-                <p>Description for the additional section 2.</p>
-            </div>
-            <div class="box" style="background-color: lightyellow;">
-                <img src="placeholder.jpg" alt="Additional 3">
-                <h2>Additional Section 3</h2>
-                <p>Description for the additional section 3.</p>
-            </div>
-        </section>
+           <img src="toxhand.jpg" alt="toxcloseup">
+            <div class="flex-container" style="background-color: orange;">
+				  <h1 style="font-size:40px; color:#c90051;">Filler</h1>
+               <h2 style="font-size:20px; color: #054115"><p>Facial fillers are substances injected into the skin to smooth wrinkles and make them less noticeable. </p>
+<p>Skin is held tight and smooth by three critical components: collagen, hyaluronic acid, and elastin. These chemicals combine to create a firm, spongy meshwork under the skin surface. This elastic structure keeps the skin surface smooth and firm.
+With age, this meshwork slowly loses its strength. With weakness in the underlying support structure, the skin's surface no longer has its baby-skin smoothness.
+</p>
+<p>Injecting cosmetic fillers helps fill the thinned-out meshwork. The fillers plump up the tissue underneath the skin, shrinking wrinkles. The skin becomes firmer, smoother, and younger-looking. </p></h2>
 
-        <section id="contact" class="contact-form">
+			  <img src="filler.jpg" alt="Sun Protection">
+          
+				
+            </div>
+</section>
+
+<section id="contact" class="contact-form">
             <h2>Contact Us</h2>
             <form>
                 <label for="name">Name:</label>
@@ -281,7 +292,7 @@ footer {
                 
                 <button type="submit">Submit</button>
             </form>
-        </section>
+				</section>
     </main>
     <footer>
         <p>&copy; 2024 Skincare for Women Over 30</p>
